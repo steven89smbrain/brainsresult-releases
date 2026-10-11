@@ -1,0 +1,24 @@
+name: Usulan fitur
+description: Ide untuk membuat BrainsResult lebih berguna
+labels: ["usulan"]
+body:
+  - type: markdown
+    attributes:
+      value: Issue ini terlihat publik. Ceritakan kebutuhannya, bukan data Anda.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Kebutuhan / masalahnya
+      description: Apa yang ingin Anda lakukan, dan apa yang menyulitkan sekarang?
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Usulan
+      description: Bagaimana sebaiknya BrainsResult membantu?
+  - type: dropdown
+    id: area
+    attributes:
+      label: Bagian
+      options: ["Tasks", "Notes", "Attachments / file", "Finance", "Tim / akses / server", "Backup", "Lainnya"]

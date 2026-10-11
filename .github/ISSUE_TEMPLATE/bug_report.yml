@@ -1,0 +1,67 @@
+name: Laporan masalah
+description: Sesuatu tidak berjalan sebagaimana mestinya
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Terima kasih sudah melapor. Issue ini **terlihat publik**: jangan cantumkan data pribadi, data keuangan, password, kunci lisensi atau nama perusahaan.
+        Untuk lisensi atau pembayaran, gunakan email support (lihat README).
+  - type: input
+    id: version
+    attributes:
+      label: Versi BrainsResult
+      description: Tertulis di pojok kanan bawah aplikasi (status bar), mis. v0.1.0
+      placeholder: v1.2.0
+    validations:
+      required: true
+  - type: dropdown
+    id: windows
+    attributes:
+      label: Windows
+      options: ["Windows 11", "Windows 10", "Lainnya"]
+    validations:
+      required: true
+  - type: dropdown
+    id: connection
+    attributes:
+      label: Tempat data
+      options: ["Komputer ini (lokal)", "Server database kantor (MySQL)", "Keduanya", "Tidak tahu"]
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Langkah untuk mengulanginya
+      placeholder: |
+        1. Buka Tasks → All tasks
+        2. Klik …
+        3. Muncul pesan …
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Yang diharapkan
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Yang terjadi
+      description: Salin pesan kesalahan apa adanya. Tangkapan layar boleh, tetapi tutupi data pribadi.
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Info diagnostik (bila tersedia)
+      description: Bila aplikasi punya menu Help → Copy diagnostic info, tempel hasilnya di sini.
+      render: text
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privasi
+      options:
+        - label: Laporan ini tidak berisi data pribadi, data keuangan, password atau kunci lisensi.
+          required: true

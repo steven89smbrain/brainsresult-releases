@@ -1,0 +1,14 @@
+# Installers and update files are uploaded to GitHub Releases, never committed:
+# a git history full of 100 MB binaries can't be cleaned up later.
+*.exe
+*.msi
+*.zip
+*.7z
+*.blockmap
+latest*.yml
+beta*.yml
+
+# Secrets never belong in this public repository.
+.env*
+*.pem
+*.key

@@ -1,0 +1,9 @@
+blank_issues_enabled: false
+contact_links:
+  # TODO: ganti dengan tautan undangan Discord dan alamat email support yang sebenarnya.
+  - name: Pertanyaan & diskusi (Discord)
+    url: https://discord.gg/TODO
+    about: Tanya cara pakai, berbagi tips, atau diskusi sebelum membuat issue.
+  - name: Lisensi, pembayaran & data pribadi (email)
+    url: mailto:TODO-support@example.com
+    about: Urusan yang tidak boleh terlihat publik.
