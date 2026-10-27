@@ -2,6 +2,10 @@
 
 Aplikasi desktop untuk **tugas, catatan, file dan keuangan** dalam satu tempat — untuk pribadi maupun tim kantor (dengan server database bersama).
 
+> **Versi beta (0.9.x).** Gratis untuk dicoba. Fitur dan edisi masih bisa berubah sebelum versi 1.0; data Anda tetap aman di komputer atau server Anda sendiri. Kami sangat berterima kasih atas laporan masalah dan saran.
+
+📖 **[Panduan pengguna](docs/README.md)**
+
 ## Unduh
 
 ➡️ **[Unduh versi terbaru](../../releases/latest)** — pilih file `BrainsResult-<versi>-setup.exe` di bagian *Assets*.
@@ -26,15 +30,26 @@ BrainsResult memeriksa versi baru secara otomatis, mengunduhnya di belakang laya
 
 Pada kantor yang memakai server database bersama, perbarui semua komputer ke versi yang sama.
 
+## Edisi selama beta
+
+| | Tanpa lisensi (Free) | Dengan lisensi beta |
+|---|---|---|
+| Tasks, Notes, Attachments, Finance, backup | ✅ | ✅ |
+| Workspace di komputer ini | 2 aktif | Tanpa batas |
+| Server database kantor (MySQL) | Hanya bisa dilihat | ✅ sesuai jumlah pengguna di lisensi |
+| Fitur tim (akses per orang, peran Viewer, kunci edit, komentar, penanggung jawab) | — | ✅ (lisensi Team) |
+
+Butuh lisensi beta untuk mencoba server kantor atau fitur tim? [Buat issue](../../issues/new/choose) dengan judul *Lisensi beta*, sebutkan **installation id** (Manage workspaces → License → *Copy installation id*) atau **device id**. Jangan cantumkan data pribadi lain.
+
 ## Bantuan
 
 | Keperluan | Tempat |
 |---|---|
-| Pertanyaan & diskusi | Discord: TODO tautan undangan |
+| Panduan | [docs/](docs/README.md) |
+| Pertanyaan & diskusi | [Issues](../../issues) |
 | Laporan masalah (bug) | [Buat issue](../../issues/new/choose) — **jangan** cantumkan data pribadi, data keuangan, password atau kunci lisensi |
-| Lisensi, pembayaran, data pribadi | Email: TODO support@… |
 | Celah keamanan | Lihat [SECURITY.md](SECURITY.md) — laporkan secara privat |
 
 ## Lisensi
 
-BrainsResult adalah perangkat lunak berbayar dengan edisi **Free**. Repo ini hanya berisi file rilis dan tempat laporan pengguna; kode sumbernya tidak publik. Syarat penggunaan: TODO tautan EULA.
+BrainsResult adalah perangkat lunak berbayar dengan edisi **Free**. Repo ini hanya berisi file rilis dan tempat laporan pengguna; kode sumbernya tidak publik. Syarat penggunaan: [EULA](EULA.md) · Privasi: [PRIVACY.md](PRIVACY.md) · Komponen open-source: [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).
