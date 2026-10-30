@@ -1,6 +1,6 @@
 # Perjanjian Lisensi Pengguna Akhir (EULA) — BrainsResult
 
-**Versi beta · berlaku sejak 2026-10-27**
+**Versi beta · berlaku sejak 2026-10-27 · diperbarui 2026-10-30**
 
 *English version below.*
 
@@ -16,6 +16,9 @@ Dengan memasang atau memakai BrainsResult ("Perangkat Lunak"), Anda menyetujui p
 8. **Batas tanggung jawab.** Sejauh diizinkan hukum, Kami tidak bertanggung jawab atas kerugian tidak langsung, kehilangan data, kehilangan keuntungan atau gangguan usaha yang timbul dari pemakaian Perangkat Lunak. Tanggung jawab Kami paling tinggi sebesar biaya lisensi yang Anda bayar dalam 12 bulan terakhir.
 9. **Berakhirnya lisensi.** Lisensi berakhir bila Anda melanggar perjanjian ini. Data Anda tetap dapat dibaca dan diekspor.
 10. **Hukum yang berlaku.** Perjanjian ini tunduk pada hukum Republik Indonesia.
+11. **Perubahan perjanjian.** Kami dapat memperbarui perjanjian ini. Versi baru berlaku untuk versi Perangkat Lunak berikutnya dan diumumkan di catatan rilis; versi yang sudah Anda pasang tetap mengikuti perjanjian yang Anda setujui saat memasangnya.
+12. **Masukan.** Saran, laporan kesalahan dan masukan lain yang Anda kirim (terutama selama beta) boleh Kami pakai untuk memperbaiki Perangkat Lunak tanpa kewajiban kompensasi.
+13. **Bahasa.** Perjanjian ini dibuat dalam Bahasa Indonesia dan Bahasa Inggris. Bila ada perbedaan, versi Bahasa Indonesia yang berlaku.
 
 Kontak: halaman [Issues](https://github.com/steven89smbrain/brainsresult-releases/issues) repositori rilis BrainsResult.
 
@@ -23,7 +26,7 @@ Kontak: halaman [Issues](https://github.com/steven89smbrain/brainsresult-release
 
 # End User License Agreement (EULA) — BrainsResult
 
-**Beta version · effective 2026-10-27**
+**Beta version · effective 2026-10-27 · updated 2026-10-30**
 
 By installing or using BrainsResult (the "Software") you agree to this agreement. If you do not agree, do not install or use it.
 
@@ -37,5 +40,8 @@ By installing or using BrainsResult (the "Software") you agree to this agreement
 8. **Limitation of liability.** To the extent permitted by law, We are not liable for indirect damages, loss of data, loss of profit or business interruption arising from the use of the Software. Our total liability is limited to the license fees you paid in the last 12 months.
 9. **Termination.** The license ends if you breach this agreement. Your data stays readable and exportable.
 10. **Governing law.** This agreement is governed by the laws of the Republic of Indonesia.
+11. **Changes.** We may update this agreement. A new version applies to the next version of the Software and is announced in its release notes; the version you have installed stays under the agreement you accepted when installing it.
+12. **Feedback.** Suggestions, bug reports and other feedback you send (especially during the beta) may be used by Us to improve the Software, without any obligation to compensate you.
+13. **Language.** This agreement is made in Indonesian and English. If they differ, the Indonesian version prevails.
 
 Contact: the [Issues](https://github.com/steven89smbrain/brainsresult-releases/issues) page of the BrainsResult release repository.
